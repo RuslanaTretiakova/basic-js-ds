@@ -14,8 +14,8 @@ const { ListNode } = require('../extensions/list-node.js');
 class Queue {
 
   getUnderlyingList() {
-    this.value = value;
-    this.next = next;
+   this.head = null;
+   this.tail = null;
   }
 
   enqueue(value) {
